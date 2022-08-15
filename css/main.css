@@ -1,0 +1,336 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: #ffffff;
+    width: 100%;
+    z-index: 1;
+    top: 0px;
+}
+
+nav > ul{
+   list-style: none;
+   display: flex;
+   width: 600px;
+   display: flex;
+   justify-content: space-between;
+   padding: 0px;
+   align-items: center;
+   margin-left: 100px;
+}
+
+nav  img{
+    height: 100px;
+    width: 100%;
+    margin-right: 100px;
+}
+
+nav > ul > li > a{
+    color: #595959;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover{
+    color: #003366;
+}
+
+.open-account{
+    display: flex;
+    color: white;
+    background-image: linear-gradient(to right, #004080, #000d1a);
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+
+.open-account:hover{
+    color: white;
+}
+
+nav > img{
+    width: 90px;
+    height: 90px;
+}
+
+#make-life{
+    display: flex;
+    height: 500px;
+    padding: 100px 90px;
+    background-image: url("../img/banner/banner5.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#make-life > div{
+    width: 500px;
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #003366;
+    padding: 30px;
+}
+
+#make-life h3{
+    font-size: 50px;
+    margin: 0px 10px;
+}
+
+#make-life p{
+    font-size: 20px;
+}
+
+.link{
+    display: flex;
+    color: white;
+    background-color: #004080;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    text-decoration: none;
+}
+
+#offers{
+    display: flex;
+    height: 600px;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+}
+
+#offers > .persons{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#offers > .persons img{
+    width: 200px;
+    height: 250px;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+}
+
+#offers .offers{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+#offers .offers h3{
+    font-size: 35px;
+    color: #595959;
+}
+
+.big-title{
+    font-size: 35px;
+    color: #595959;
+}
+
+#offers .offers > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.plan{
+    width: 30%;
+    text-align: center;
+}
+
+.plan img{
+    height: 100px;
+    width: 100px;
+}
+
+#banking{
+    background-color: #d9d9d9;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#banking h2{
+    font-size: 40px;
+    color: #595959;
+    margin: 15px 70px;
+}
+
+#banking > .text{
+    display: flex;
+    justify-content: space-around;
+}
+
+#banking > .text > div{
+    width: 37%;
+}
+
+#banking p{
+    color: #595959;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#about-us{
+    display: flex;
+    justify-content: center;
+    background-color: #e6e6e6;
+    height: 600px;
+    align-items: center;
+}
+
+#about-us > div{
+    width: 43%;
+}
+
+#about-us .img img{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#about-us .img{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-us h3{
+    color: #595959;
+    font-size: 25px;
+    margin: 10px 0px;
+}
+
+#about-us p{
+    width: 80%;
+    font-size: 20px;
+}
+
+footer{
+    border-top: 3px solid #003366;
+}
+
+footer > div{
+    margin-left: 100px;
+    color: #595959;
+}
+
+/* About */
+#about-banner{
+    margin-top: 100px;
+    background-image: url("../img/banner/banner5.jpg");
+    height: 500px;
+    position: relative;
+    background-size: cover;
+}
+
+#about-banner > div{
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    top: 100px;
+    left: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#about-banner > div > *{
+    width: 85%;
+}
+
+#about-banner > div h3{
+    margin-bottom: 5px;
+    font-size: 35px;
+    font-weight: 400;
+    color: #4d4d4d;
+}
+
+#about-banner > div p{
+    color: #4d4d4d;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#facts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e6e6e6;
+}
+
+#facts > div{
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#facts > div > .text{
+    width: 57%;
+}
+
+#facts > div > .text > p{
+    color: #595959;
+    font-size: 20px;
+}
+
+#facts > div > .numbers{
+    width: 29%;
+    height: fit-content;
+    border: 1px solid #cccccc;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 40px 0px;
+    align-items: center;
+}
+
+.numbers h4{
+    font-size: 35px;
+    color: #595959;
+    margin: 10px 0px;
+}
+
+.numbers > div{
+    width: 85%;
+}
+
+/* Advance */
+#advance-banner{
+    background-image: url("../img/banner/banner3.jfif");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    display: flex;
+}
+
+.x-container{
+    width: 85%;
+    margin: 0px auto;
+}
+
+.banner-text{
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 230px;
+    width: 400px;
+    padding: 30px;
+    margin-top: 50px;
+}

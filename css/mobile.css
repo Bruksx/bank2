@@ -1,0 +1,271 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    background-color: #ffffff;
+}
+
+nav ul{
+    position: absolute;
+    top: 100%;
+    background-color: #d9d9d9;
+    list-style: none;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    display: none;
+}
+
+nav ul a{
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+nav img{
+    width: 80px;
+    height: 70px;
+    margin-right: 20px;
+}
+
+.ham{
+    border: 2px solid #003366;
+    width: 40px;
+    height: 35px;
+    border-radius: 5px;
+    position:absolute;
+    left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ham .line{
+    background-color: #004080;
+    height: 2px;
+    display: block;
+    width: 90%;
+}
+
+nav .ham .x{
+    display: none;
+}
+
+#make-life{
+    background-image: url("../img/banner/banner5.webp");
+    height: 500px;
+    display: flex;
+    color: white;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+#make-life > div{
+    width: 90%;
+}
+
+#make-life h3{
+    font-size: 40px;
+    margin: 0px 10px;
+}
+
+.link{
+    display: flex;
+    color: white;
+    background-color: #004080;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    text-decoration: none;
+}
+
+#offers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#offers .persons{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.persons img{
+    width: 45%;
+    height: 200px;
+}
+
+.persons #third{
+    display: none;
+}
+
+#offers .offers{
+    width: 80%;
+}
+
+#offers .offers h3{
+    font-size: 35px;
+    color: #595959;
+}
+
+#offers .offers > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.plan{
+    width: 30%;
+    text-align: center;
+}
+
+.plan img{
+    height: 100px;
+    width: 100px;
+}
+
+#offers a{
+    margin-top: 20px;
+}
+
+#banking{
+    display: flex;
+    flex-direction: column;
+    background-color: #d9d9d9;
+    align-items: center;
+}
+
+#banking > *{
+    width: 85%;
+}
+
+.big-title{
+    font-size: 35px;
+    color: #595959;
+}
+
+#about-us{
+    background-color: #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-us > *{
+    width: 85%;
+}
+
+#about-us .img {
+    display: none;
+}
+
+#about-us .img img{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+footer{
+    border-top: 3px solid #003366;
+}
+
+footer > div{
+    color: #595959;
+    text-align: center;
+}
+
+
+#about-banner{
+    margin-top: 100px;
+    background-image: url("../img/banner/banner5.jpg");
+    height: 500px;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-banner > div{
+    width: 85%;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#about-banner > div > *{
+    width: 85%;
+}
+
+#about-banner > div h3{
+    margin-bottom: 5px;
+    font-size: 35px;
+    font-weight: 400;
+    color: #4d4d4d;
+}
+
+#about-banner > div p{
+    color: #4d4d4d;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#facts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#facts > div{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#facts > div > .text{
+
+}
+
+#facts > div > .text > p{
+    color: #595959;
+    font-size: 20px;
+}
+
+#facts > div > .numbers{
+    border: 2px solid #e6e6e6;
+    height: 300px;
+}
+
+.numbers h4{
+    font-size: 35px;
+    color: #595959;
+    margin: 10px 0px;
+}
+
+.numbers > div{
+    width: 85%;
+}
+
