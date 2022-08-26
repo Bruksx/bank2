@@ -119,6 +119,7 @@ nav > img{
     height: 250px;
     flex-shrink: 0;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 #offers .offers{
@@ -199,6 +200,7 @@ nav > img{
 #about-us .img img{
     width: 100%;
     margin-bottom: 25px;
+    border-radius: 10px;
 }
 
 #about-us .img{
